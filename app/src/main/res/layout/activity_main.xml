@@ -7,36 +7,36 @@
     tools:context=".MainActivity">
 
     <FrameLayout
-        android:id="@+id/top_menue"
+        android:id="@+id/top_menu"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/purple_700"
-        app:layout_constraintBottom_toTopOf="@+id/buttons_menue"
+        app:layout_constraintBottom_toTopOf="@+id/buttons_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <LinearLayout
-        android:id="@+id/buttons_menue"
+        android:id="@+id/buttons_menu"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="45dp"
         android:background="@android:color/holo_orange_light"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/low_menue"
+        app:layout_constraintBottom_toTopOf="@+id/low_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_menue" />
+        app:layout_constraintTop_toBottomOf="@+id/top_menu" />
 
 
     <FrameLayout
-        android:id="@+id/low_menue"
+        android:id="@+id/low_menu"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@color/teal_200"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttons_menue" />
+        app:layout_constraintTop_toBottomOf="@+id/buttons_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
