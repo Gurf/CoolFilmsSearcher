@@ -19,15 +19,15 @@
 
     <LinearLayout
         android:id="@+id/buttons_menue"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="45dp"
         android:background="@android:color/holo_orange_light"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/low_menue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_menue" />
-
 
 
     <FrameLayout
