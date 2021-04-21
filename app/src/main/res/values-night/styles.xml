@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/design_default_color_on_secondary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_error</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+    </style>
+
+</resources>

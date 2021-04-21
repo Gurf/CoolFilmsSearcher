@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">CoolFilmsSearcher</string>
     <string name="pict_source">Источник постеров: https://www.movieposters.com</string>
-    <string name="btn_menu0">меню</string>
-    <string name="btn_menu1">избранное</string>
-    <string name="btn_menu2">посмотреть позже</string>
-    <string name="btn_menu3">плейлист</string>
-    <string name="btn_menu4">настройки</string>
+    <string name="btn_menu0">Меню</string>
+    <string name="btn_menu1">Избранное</string>
+    <string name="btn_menu2">Посмотреть позже</string>
+    <string name="btn_menu3">Плейлист</string>
+    <string name="btn_menu4">Настройки</string>
+    <string name="first_page_title">Искать!</string>
+
 </resources>
